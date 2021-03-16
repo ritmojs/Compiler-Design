@@ -69,7 +69,7 @@ int main()
 	{
 		printf("%c\t",var[i]);
 	}	
-	printf("\n------------------------------------------------");
+	printf("\n-----------------------------------------------");
 	for(i=0;i<s;i++)
 	{
 		printf("\n%c  %c  %c\t",states[i].state,(states[i].start==0)?' ':'$',(states[i].final==0)?' ':'*');
